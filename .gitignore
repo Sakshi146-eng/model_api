@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# =========================
+# Virtual Environments
+# =========================
+env.bak/
+venv.bak/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+uvicorn.log
+
+# =========================
+# ML Models & Artifacts
+# =========================
+*.h5
+*.onnx
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Tests / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Cache
+# =========================
+.cache/
